@@ -8,6 +8,19 @@
 
 ```bash
 npm install --save react-og-buttons
+
+or
+
+yarn add react-og-buttons
+```
+
+## Setup
+
+```css
+:root {
+  --primary-color: #8a4af3;
+  --secundary-color: #fafafa;
+}
 ```
 
 ## Usage
@@ -15,14 +28,36 @@ npm install --save react-og-buttons
 ```tsx
 import React, { Component } from 'react'
 
-import MyComponent from 'react-og-buttons'
-import 'react-og-buttons/dist/index.css'
+import Button from 'react-og-buttons'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return (
+      <>
+        <Button>OG Button</Button>
+        <Button backgroundColor='#2196f3' color='#fafafa'>
+          Edit Button
+        </Button>
+        <Button typeStyle='success'>Success Button</Button>
+        <Button typeStyle='outline'>Outline Button</Button>
+        <Button typeStyle='warning'>Warning Button</Button>
+        <Button typeStyle='danger'>Danger Button</Button>
+      </>
+    )
   }
 }
+```
+
+## Options
+
+    If not pass options, will get setup :root css
+
+```jsx
+typeStyle?: string
+color?: string
+backgroundColor?: string
+fontSize?: string
+fontFamily?: string
 ```
 
 ## License
