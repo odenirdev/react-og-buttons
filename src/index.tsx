@@ -57,7 +57,9 @@ interface Props {
   fontFamily?: string
 }
 
-const Index = Styled.button`
+const Index = Styled.button.attrs({
+  className: 'react-og-button'
+})`
   border: 0;
 
   &:hover {
@@ -111,6 +113,10 @@ const Index = Styled.button`
 
   &:active {
     box-shadow: none;
+  }
+
+  @media (max-width: 750px) {
+    width: 100%;
   }
 
 `

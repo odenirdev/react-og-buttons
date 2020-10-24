@@ -23,6 +23,8 @@ const Grid = Styled.main`
     button {
         margin-top: 24px;
     }
+
+    padding: 1rem;
 `
 
 const App = () => {
