@@ -96,7 +96,7 @@ const Index = Styled.button.attrs({
 
   cursor: pointer;
 
-  box-shadow: 0px 4px 10px -4px rgba(0,0,0,0.75);
+  box-shadow: 1px 1px 3px -1px rgba(0,0,0,0.75);
 
   font-size: ${(props: Props) => props.fontSize || '24px'};
   font-family: ${(props: Props) => props.fontFamily || 'var(--title-font)'};
