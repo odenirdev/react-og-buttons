@@ -18,8 +18,9 @@ yarn add react-og-buttons
 
 ```css
 :root {
-  --primary-color: #8a4af3;
+  --primary-color: #191919;
   --secundary-color: #fafafa;
+  --title-font: Roboto;
 }
 ```
 

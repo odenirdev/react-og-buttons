@@ -107,6 +107,10 @@ const Index = Styled.button.attrs({
     margin-right: 5px;
   }
 
+  & div {
+    margin-right: 5px;
+  }
+
   &:focus {
     outline: 0;
   }
