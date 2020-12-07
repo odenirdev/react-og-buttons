@@ -89,6 +89,10 @@ const Index = Styled.button.attrs({
     }
   }}
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   height: 50px;
   padding: 0 15px;
 
